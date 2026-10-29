@@ -79,7 +79,7 @@ $seo schema https://example.com          # 检测并生成结构化数据
 </details>
 <details>
 <summary><b>扩展</b>（可选）</summary>
-<ul><li><code>$seo image-gen [use-case]</code>：为 SEO 素材生成 AI 图片</li><li><code>$seo seranking [command]</code>：ChatGPT、Gemini、Perplexity、AI Overviews、AI Mode 的 AI 声量份额</li><li><code>$seo profound [command]</code>：LLM 引用追踪与时间序列</li><li><code>$seo bing [command] &lt;url&gt;</code>：Bing 站长工具 + IndexNow 提交</li><li><code>$seo unlighthouse &lt;url&gt;</code>：多页 Lighthouse，本地运行</li></ul>
+<ul><li><code>$seo image-gen [use-case]</code>：为 SEO 素材生成 AI 图片</li><li><code>$seo goanyapi [command]</code>：通过 <a href="https://goanyapi.com">GoAnyAPI</a> MCP 查询流量、DR、外链、关键词和 SERP</li><li><code>$seo seranking [command]</code>：ChatGPT、Gemini、Perplexity、AI Overviews、AI Mode 的 AI 声量份额</li><li><code>$seo profound [command]</code>：LLM 引用追踪与时间序列</li><li><code>$seo bing [command] &lt;url&gt;</code>：Bing 站长工具 + IndexNow 提交</li><li><code>$seo unlighthouse &lt;url&gt;</code>：多页 Lighthouse，本地运行</li></ul>
 </details>
 
 完整命令参考：[docs/COMMANDS.md](docs/COMMANDS.md)。

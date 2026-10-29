@@ -611,6 +611,25 @@ $seo firecrawl search "query" https://example.com
 
 ---
 
+### `$seo goanyapi [command]`
+
+Live GoAnyAPI website and search intelligence through the official remote MCP extension. Install with `./extensions/goanyapi/install.sh` or the Windows PowerShell installer, complete OAuth, and start a new Codex session. See [GoAnyAPI setup](../extensions/goanyapi/docs/GOANYAPI-SETUP.md) and [goanyapi.com](https://goanyapi.com).
+
+```text
+$seo goanyapi traffic <domain>       # Traffic, sources, and country data
+$seo goanyapi dr <domain>            # Domain rating
+$seo goanyapi backlinks <domain>     # Backlink data
+$seo goanyapi serp <query>           # Google SERP
+$seo goanyapi bing-serp <query>      # Bing SERP
+$seo goanyapi keywords <seed>        # Keyword ideas
+$seo goanyapi difficulty <keyword>   # Keyword difficulty
+$seo goanyapi autocomplete <query>   # Google suggestions
+$seo goanyapi trends <keyword>       # Google Trends
+$seo goanyapi balance                # Remaining credits (free)
+```
+
+Each billable tool consumes the authorized GoAnyAPI account's credits. Confirm current rates in the [API documentation](https://goanyapi.com/docs).
+
 ### `$seo dataforseo [command]`
 
 Live SEO data via DataForSEO MCP server (extension). 23 data commands across 9 API modules, plus cost-tracking commands.
@@ -783,6 +802,7 @@ $seo unlighthouse https://example.com --max-routes 50 --output-dir ./reports
 | `$seo flow [stage] [url\|topic]` | FLOW framework prompts |
 | `$seo google [command] [url]` | Google SEO APIs (GSC, PSI, CrUX, GA4) |
 | `$seo dataforseo [command]` | Live SEO data (extension) |
+| `$seo goanyapi [command]` | Live traffic, DR, backlinks, keywords, and SERP data (extension) |
 | `$seo image-gen [use-case] <desc>` | AI image generation (extension) |
 | `$seo firecrawl [command] <url>` | Full-site crawling (extension) |
 | `$seo ahrefs [command] <url>` | Backlinks, organic keywords, and content data via the official Ahrefs MCP (extension) |

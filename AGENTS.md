@@ -162,6 +162,7 @@ Bundled tools run through the launcher:
 | `$seo flow [stage] [url\|topic]` | FLOW framework prompts |
 | `$seo google [command] [url]` | Google SEO APIs (GSC, PSI, CrUX, GA4) |
 | `$seo dataforseo [command]` | Live SEO data (extension) |
+| `$seo goanyapi [command]` | Live traffic, DR, backlinks, keywords, and SERP data via GoAnyAPI MCP (extension) |
 | `$seo image-gen [use-case] <desc>` | AI image generation (extension) |
 | `$seo firecrawl [command] <url>` | Full-site crawling (extension) |
 | `$seo ahrefs [command] <url>` | Backlinks, organic keywords, and content data via the official Ahrefs MCP (extension) |
@@ -209,7 +210,7 @@ Bundled tools run through the launcher:
 1. **Progressive Disclosure**: Metadata always loaded, instructions on activation, resources on demand
 2. **Industry Detection**: Auto-detect SaaS, e-commerce, local, publisher, agency
 3. **Sequential Role Passes**: Full audits execute all 17 analyst roles with findings persisted per role
-4. **Extension System**: DataForSEO, Firecrawl, Banana, Ahrefs, SE Ranking, Profound, Bing Webmaster, Matomo, and Unlighthouse extensions
+4. **Extension System**: DataForSEO, GoAnyAPI, Firecrawl, Banana, Ahrefs, SE Ranking, Profound, Bing Webmaster, Matomo, and Unlighthouse extensions
 
 ## Credits
 

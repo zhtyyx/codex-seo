@@ -64,6 +64,7 @@ extension is also installable (see "Optional Extensions" below).
 | `$seo matomo [command] [args]` | Matomo Reporting API: GA4 alternative or supplement (extension) |
 | `$seo firecrawl [command] <url>` | Full-site crawling and site mapping (extension) |
 | `$seo dataforseo [command]` | Live SEO data via DataForSEO (extension) |
+| `$seo goanyapi [command]` | Live traffic, DR, backlinks, keywords, and SERP data via GoAnyAPI MCP (extension) |
 | `$seo image-gen [use-case] <description>` | AI image generation for SEO assets (extension) |
 | `$seo flow [stage] [url\|topic]` | FLOW framework: evidence-led prompts for Find, Leverage, Optimize, Win, or Local stages |
 | `$seo setup` | Explicitly create or refresh the isolated Python runtime and Chromium |
@@ -235,7 +236,7 @@ The following ship in `extensions/` rather than `skills/` and require a separate
 installer to activate (see each extension's `install.sh`/`install.ps1`):
 
 All optional extensions are reachable through `/seo` subcommands once
-installed: firecrawl, dataforseo, and image-gen, plus `$seo ahrefs`,
+installed: firecrawl, dataforseo, goanyapi, and image-gen, plus `$seo ahrefs`,
 `$seo bing`, `$seo matomo`, `$seo profound`, `$seo seranking`, and
 `$seo unlighthouse`. Each installs as its own sub-skill, so the model also
 auto-routes to their descriptions without the `/seo` prefix.
@@ -243,6 +244,10 @@ auto-routes to their descriptions without the `/seo` prefix.
 - **seo-firecrawl** -- Full-site crawling and site mapping via Firecrawl MCP. Install
   via `extensions/firecrawl/install.sh` (Unix) or `extensions/firecrawl/install.ps1`
   (Windows). Once installed, invoke via `$seo firecrawl <command>`.
+- **seo-goanyapi** -- Live traffic, domain rating, backlinks, keyword, and
+  SERP data via the official GoAnyAPI remote MCP. Install via
+  `extensions/goanyapi/install.sh` (Unix) or `extensions/goanyapi/install.ps1`
+  (Windows). Once authorized, invoke via `$seo goanyapi <command>`.
 - **seo-matomo** -- Self-hosted or Matomo Cloud Reporting API as a GA4
   alternative or complement. Install via
   `extensions/matomo/install.sh` (Unix) or `extensions/matomo/install.ps1`

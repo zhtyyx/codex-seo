@@ -79,7 +79,7 @@ Mention a skill with `$` in Codex CLI, e.g. `$seo audit https://example.com` (pl
 </details>
 <details>
 <summary><b>Extensions</b> (optional add-ons)</summary>
-<ul><li><code>$seo image-gen [use-case]</code>: AI image generation for SEO assets</li><li><code>$seo seranking [command]</code>: AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, AI Mode</li><li><code>$seo profound [command]</code>: LLM citation tracking with time-series data</li><li><code>$seo bing [command] &lt;url&gt;</code>: Bing Webmaster Tools + IndexNow URL submission</li><li><code>$seo unlighthouse &lt;url&gt;</code>: Multi-page Lighthouse runner, runs locally</li></ul>
+<ul><li><code>$seo image-gen [use-case]</code>: AI image generation for SEO assets</li><li><code>$seo goanyapi [command]</code>: Live traffic, DR, backlinks, keywords, and SERP data via <a href="https://goanyapi.com">GoAnyAPI</a> MCP</li><li><code>$seo seranking [command]</code>: AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, AI Mode</li><li><code>$seo profound [command]</code>: LLM citation tracking with time-series data</li><li><code>$seo bing [command] &lt;url&gt;</code>: Bing Webmaster Tools + IndexNow URL submission</li><li><code>$seo unlighthouse &lt;url&gt;</code>: Multi-page Lighthouse runner, runs locally</li></ul>
 </details>
 
 Full reference: [docs/COMMANDS.md](docs/COMMANDS.md).
