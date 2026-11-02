@@ -26,7 +26,7 @@ Codex SEO 由 26 个子技能和 19 个专家角色剧本组成。一次完整�
 
 ## 安装
 
-需要带 skills 支持的 [OpenAI Codex CLI](https://developers.openai.com/codex)，以及 Python 3.11 到 3.14。
+需要带 skills 支持的 [OpenAI Codex CLI](https://developers.openai.com/codex)，以及 Python 3.11 到 3.14（Python 3.11 to 3.14）。
 
 ```bash
 git clone --depth 1 https://github.com/zhtyyx/codex-seo.git
